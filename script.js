@@ -5,7 +5,7 @@ function compute()
     if (principal <= 0 || principal == "")
     {
         alert("Enter a positive number");
-document.getElementById("principal").innerHTML = "";
+document.getElementById("principal").focus();
         return;
     }
 
